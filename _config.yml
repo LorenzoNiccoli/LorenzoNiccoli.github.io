@@ -1,12 +1,66 @@
-# Site title and description
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: "Lorenzo Niccoli"
 
-# Jekyll theme to use
-theme: jekyll-theme-minimal
+# Short description of the website, used in meta tags
+description: "Postdoc @ ETH"
 
-# URL of your site (leave empty if using GitHub Pages)
+# Base URL (leave empty for GitHub Pages)
 url: ""
 
-# Markdown processor
+# The theme to use (AcademicPages compatible)
+theme: academicpages
+
+# AUTHOR SETTINGS
+author:
+  name: "Lorenzo Niccoli"
+  
+# CONTENT SETTINGS
+# Directory for posts/blogs
+collections:
+  posts:
+    output: true
+    permalink: /:title/
+
+# Directory for publications
+collections:
+  publications:
+    output: true
+    permalink: /publications/:title/
+
+# Directory for projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# NAVIGATION MENU
+# Links to main pages
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /posts/
+  - title: CV
+    url: /cv/
+
+# MARKDOWN & OTHER SETTINGS
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Enable syntax highlighting for code snippets
+highlighter: rouge
+
+# SOCIAL LINKS (Optional)
+social_links:
+  github: "https://github.com/LorenzoNiccoli"
+
+# ADDITIONAL SETTINGS
+# favicon: /assets/images/favicon.ico
+# google_analytics: UA-XXXXXXXXX-X
