@@ -7,9 +7,7 @@ description: "Postdoc @ ETH"
 url: ""
 
 # The theme to use (AcademicPages compatible)
-remote_theme: akademikpages/academicpages@v5.0
-plugins:
-  - jekyll-remote-theme
+theme: jekyll-theme-minimal
 
 # AUTHOR SETTINGS
 author:
