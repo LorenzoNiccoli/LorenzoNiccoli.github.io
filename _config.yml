@@ -3,8 +3,7 @@ description: "Postdoc @ ETH"
 
 url: ""
 
-remote_theme: academicpages/academicpages@master
-
+remote_theme: academicpages/academicpages-fork@master
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
