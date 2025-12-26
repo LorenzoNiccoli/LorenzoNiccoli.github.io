@@ -3,7 +3,7 @@ description: "Postdoc @ ETH"
 
 url: ""
 
-remote_theme: academicpages/academicpages
+remote_theme: academicpages/academicpages@master
 
 plugins:
   - jekyll-remote-theme
@@ -11,8 +11,3 @@ plugins:
 
 markdown: kramdown
 highlighter: rouge
-
-
-# ADDITIONAL SETTINGS
-# favicon: /assets/images/favicon.ico
-# google_analytics: UA-XXXXXXXXX-X
