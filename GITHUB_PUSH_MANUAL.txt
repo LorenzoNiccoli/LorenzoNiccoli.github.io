@@ -1,0 +1,43 @@
+GitHub Push Manual for /Users/lniccoli/Documents/CV/website
+
+Current repository state:
+- Branch: main
+- Remote: origin -> https://github.com/LorenzoNiccoli/LorenzoNiccoli.github.io.git
+- Local branch is currently behind remote by 11 commits and ahead by 1 commit.
+
+Steps to sync and push safely:
+
+1. Open a terminal and go to the repo folder:
+   cd /Users/lniccoli/Documents/CV/website
+
+2. Fetch the latest remote changes:
+   git fetch origin
+
+3. Rebase your local work onto the remote main branch:
+   git rebase origin/main
+
+   If there are merge conflicts, resolve them in the affected files, then run:
+   git add <file_with_conflict>
+   git rebase --continue
+
+   If you want to abort the rebase and return to the previous state:
+   git rebase --abort
+
+4. Verify the working tree is clean and the branch is now up-to-date:
+   git status
+   git log --oneline --decorate --graph --all | head -n 15
+
+5. Push your rebased local commits to GitHub:
+   git push origin main
+
+   If the remote rejects the push because your local branch still does not match,
+   repeat steps 2-4 and try again.
+
+6. Optional: if you want to use branch tracking from now on:
+   git branch --set-upstream-to=origin/main main
+
+Notes:
+- Do not push the `_site/` folder contents unless you want them version-controlled.
+  The GitHub Pages repo should only store the source files for the site.
+- If the remote has changes you do not want, ask before using any force push.
+- Never use `git push --force` unless you understand the implications on remote history.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 title: "Lorenzo Niccoli"
 description: "Postdoc @ ETH"
 
@@ -10,3 +11,35 @@ plugins:
 
 markdown: kramdown
 highlighter: rouge
+=======
+title: Lorenzo Niccoli
+description: Postdoctoral Researcher in Magnetic Resonance — ETH Zürich
+author: Lorenzo Niccoli
+email: lorenzo.niccoli@phys.chem.ethz.ch
+url: ""
+
+# Social links
+github_username: LorenzoNiccoli
+linkedin_username: lorenzo-niccoli
+
+# Theme
+theme: minima
+minima:
+  skin: classic
+
+# Navigation
+header_pages:
+  - index.md
+  - cv.md
+  - publications.md
+  - photos.md
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+>>>>>>> dc561e9 (Add Jekyll site from CV)
