@@ -28,4 +28,3 @@ permalink: /:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
->>>>>>> dc561e9 (Add Jekyll site from CV)
