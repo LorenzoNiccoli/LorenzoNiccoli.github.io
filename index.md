@@ -1,12 +1,4 @@
 ---
-<<<<<<< HEAD
-layout: default
-title: Home
----
-
-# Welcome to my site!
-Here you can see all the updates for my projects.
-=======
 layout: home
 title: Home
 ---
@@ -33,4 +25,3 @@ title: Home
     </p>
   </div>
 </div>
->>>>>>> dc561e9 (Add Jekyll site from CV)

@@ -45,10 +45,10 @@ title: Publications
 ## Conference Presentations
 
 - **Feb. 2026** — **Swiss NMR Conference**, Lausanne, Switzerland.  
-  Oral: *"DNP pulse sequence optimization with effective Hamiltonians"*
+  Oral Presentation: *"DNP pulse sequence optimization with effective Hamiltonians"*
 
 - **Sept. 2025** — **Alpine Conference on Magnetic Resonance in Solids**, Chamonix-Mont-Blanc, France.  
-  Oral: *"DNP pulse sequence engineering through Floquet effective Hamiltonians"*
+  Oral Presentation: *"DNP pulse sequence engineering through Floquet effective Hamiltonians"*
 
 - **May 2024** — **Chianti Workshop 2024**, Florence, Italy. Poster.
 
@@ -57,7 +57,7 @@ title: Publications
 - **Nov. 2023** — **Second Annual PANACEA User Meeting**, Florence, Italy. Local organizer.
 
 - **Sept. 2023** — **International Hyperpolarization Conference**, Leipzig, Germany.  
-  Oral: *"Efficient dynamic nuclear polarization at high field and fast MAS from tailor-designed binitroxides"*
+  Oral Presentation: *"Efficient dynamic nuclear polarization at high field and fast MAS from tailor-designed binitroxides"*
 
 - **May 2023** — **4èmes Journées RMN du Grand Sud**, Lyon, France. Poster.
 

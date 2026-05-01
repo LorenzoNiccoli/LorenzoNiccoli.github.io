@@ -31,6 +31,6 @@ Download my full cv: [Download PDF](/assets/CV.pdf)
 
 <p style="font-size:1.64em; margin:1.2em 0 0.3em 0; font-weight:250; letter-spacing:0.01em;">References</p>
 
-- **Prof. Matthias Ernst** — ETH Zürich · [maer@ethz.ch](mailto:maer@ethz.ch)
-- **Dr. Anne Lesage** — CRMN-Lyon · [anne.lesage@ens.fr](mailto:anne.lesage@ens.fr)
-- **Prof. Moreno Lelli** — University of Florence · [moreno.lelli@unifi.it](mailto:moreno.lelli@unifi.it)
+- **Prof. Matthias Ernst** — ETH Zürich
+- **Dr. Anne Lesage** — CRMN-Lyon
+- **Prof. Moreno Lelli** — University of Florence
