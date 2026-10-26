@@ -3,59 +3,191 @@
 
 @import "minima";
 
-/* Professional light grey background */
 body {
-  background-color: #f0f0f0 !important;
+  background: #f0f0f0;
+  color: #242a2e;
 }
 
-/* Content wrapper with cleaner background */
-.page-content {
-  background-color: #fafafa;
-  padding: 30px 0;
+a {
+  color: #245d78;
+  overflow-wrap: anywhere;
 }
 
-/* Better spacing for site header */
-.site-header {
-  border-bottom: 1px solid #e8e8e8;
-  background-color: #ffffff;
-  padding: 20px 0;
+a:visited {
+  color: #245d78;
 }
 
-/* Improved content spacing */
-.post-content {
-  padding: 20px 0;
+a:hover {
+  color: #153e53;
 }
 
-/* Better paragraph spacing for readability */
-.post-content p {
-  margin-bottom: 1.2em;
-  line-height: 1.7;
+a:focus-visible {
+  outline: 2px solid #245d78;
+  outline-offset: 3px;
 }
 
-/* Enhanced link styling */
-.post-content a {
-  transition: color 0.2s ease;
-}
-
-/* Profile section spacing */
-.post-content > div:first-child {
-  margin-bottom: 2.5em;
-}
-
-/* Better heading spacing */
-.post-content h1 {
-  margin-bottom: 1em;
-  line-height: 1.3;
-}
-
-/* Footer styling */
-.site-footer {
-  background-color: #ffffff;
-  border-top: 1px solid #e8e8e8;
-}
-
-/* Wrapper for better content centering */
 .wrapper {
   max-width: 900px;
   padding: 0 30px;
+}
+
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #e1e5e6;
+  padding: 20px 0;
+}
+
+.page-content {
+  background: #fafafa;
+  padding: 44px 0 60px;
+}
+
+.page-content h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 0.8em;
+}
+
+.page-content h2 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin: 1.5em 0 0.6em;
+}
+
+.page-content p,
+.page-content li {
+  line-height: 1.7;
+}
+
+.page-content hr {
+  border: 0;
+  border-top: 1px solid #dfe4e5;
+  margin: 1.6em 0;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.profile-photo {
+  width: 160px;
+  border-radius: 8px;
+}
+
+.profile-links {
+  margin-top: 1.5em;
+}
+
+.cv-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: 12rem minmax(0, 1fr);
+  gap: 0.5rem;
+}
+
+.cv-date {
+  color: #526168;
+}
+
+.photo-group {
+  margin: 1.5rem 0;
+  padding: 1.2rem;
+  border: 1px solid #dfe4e5;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.photo-grid img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.photo-grid-portrait img {
+  aspect-ratio: 3 / 4;
+}
+
+.photo-grid-landscape img {
+  aspect-ratio: 3 / 2;
+}
+
+.photo-group figcaption {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e1e5e6;
+  color: #526168;
+}
+
+.site-footer {
+  background: #fff;
+  border-top: 1px solid #e1e5e6;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+
+  .site-header {
+    padding: 12px 0;
+  }
+
+  .site-nav {
+    position: static;
+    float: none;
+    clear: both;
+    border: 0;
+    background: transparent;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .site-nav label[for="nav-trigger"] {
+    display: none;
+  }
+
+  .site-nav input ~ .trigger {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.25rem;
+  }
+
+  .site-nav .page-link,
+  .site-nav .page-link:not(:last-child) {
+    margin: 0;
+    padding: 0.25rem 0;
+  }
+
+  .page-content {
+    padding: 32px 0 44px;
+  }
+
+  .profile {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .cv-entry {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
 }

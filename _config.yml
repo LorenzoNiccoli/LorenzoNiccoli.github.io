@@ -1,8 +1,8 @@
-title: 
+title: Lorenzo Niccoli
 description: Postdoctoral Researcher in Magnetic Resonance — ETH Zürich
 author: Lorenzo Niccoli
 email: lorenzo.niccoli@phys.chem.ethz.ch
-url: ""
+url: "https://lorenzoniccoli.github.io"
 
 # Social links
 github_username: LorenzoNiccoli
@@ -24,6 +24,8 @@ header_pages:
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
+sass:
+  sourcemap: development
 
 plugins:
   - jekyll-feed
